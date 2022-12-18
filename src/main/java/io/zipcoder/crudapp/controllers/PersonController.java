@@ -1,15 +1,11 @@
 package io.zipcoder.crudapp.controllers;
 
 import io.zipcoder.crudapp.models.Person;
-import io.zipcoder.crudapp.repositories.PersonRepository;
 import io.zipcoder.crudapp.services.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 @RestController
 @RequestMapping("/people")
